@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9891DEDE1BE11C4100B60A44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9891DEDD1BE11C4100B60A44 /* main.m */; };
+		9891DEE11BE11C4100B60A44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9891DEE01BE11C4100B60A44 /* AppDelegate.m */; };
+		9891DEE41BE11C4100B60A44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9891DEE31BE11C4100B60A44 /* ViewController.m */; };
+		9891DEE91BE11C4100B60A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9891DEE81BE11C4100B60A44 /* Assets.xcassets */; };
+		9891DEEC1BE11C4100B60A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9891DEEA1BE11C4100B60A44 /* LaunchScreen.storyboard */; };
+		9891DEF71BE11C4200B60A44 /* SBJellyRefreshViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9891DEF61BE11C4200B60A44 /* SBJellyRefreshViewDemoTests.m */; };
+		9891DF031BE11CB100B60A44 /* SBJellyRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9891DF021BE11CB100B60A44 /* SBJellyRefreshView.m */; };
+		9891DF081BE120D800B60A44 /* SBJellyBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 9891DF071BE120D800B60A44 /* SBJellyBall.m */; };
+		98B990371BE273F300F0AF21 /* SBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B990361BE273F300F0AF21 /* SBAnimation.m */; };
+		98D81E1E1BE1D6B200E8974C /* SBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D81E1D1BE1D6B200E8974C /* SBTableViewCell.m */; };
+		98D81E211BE1D6F500E8974C /* SBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D81E201BE1D6F500E8974C /* SBTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9891DEF31BE11C4200B60A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9891DED11BE11C4100B60A44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9891DED81BE11C4100B60A44;
+			remoteInfo = SBJellyRefreshViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9891DED91BE11C4100B60A44 /* SBJellyRefreshViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBJellyRefreshViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9891DEDD1BE11C4100B60A44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9891DEDF1BE11C4100B60A44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9891DEE01BE11C4100B60A44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9891DEE21BE11C4100B60A44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9891DEE31BE11C4100B60A44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9891DEE81BE11C4100B60A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9891DEEB1BE11C4100B60A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9891DEED1BE11C4100B60A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9891DEF21BE11C4200B60A44 /* SBJellyRefreshViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBJellyRefreshViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9891DEF61BE11C4200B60A44 /* SBJellyRefreshViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJellyRefreshViewDemoTests.m; sourceTree = "<group>"; };
+		9891DEF81BE11C4200B60A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9891DF011BE11CB100B60A44 /* SBJellyRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJellyRefreshView.h; path = SBJellyRefreshView/SBJellyRefreshView.h; sourceTree = "<group>"; };
+		9891DF021BE11CB100B60A44 /* SBJellyRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJellyRefreshView.m; path = SBJellyRefreshView/SBJellyRefreshView.m; sourceTree = "<group>"; };
+		9891DF061BE120D800B60A44 /* SBJellyBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJellyBall.h; path = SBJellyRefreshView/SBJellyBall.h; sourceTree = "<group>"; };
+		9891DF071BE120D800B60A44 /* SBJellyBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJellyBall.m; path = SBJellyRefreshView/SBJellyBall.m; sourceTree = "<group>"; };
+		98B990351BE273F300F0AF21 /* SBAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBAnimation.h; path = SBJellyRefreshView/SBAnimation.h; sourceTree = "<group>"; };
+		98B990361BE273F300F0AF21 /* SBAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBAnimation.m; path = SBJellyRefreshView/SBAnimation.m; sourceTree = "<group>"; };
+		98D81E1C1BE1D6B200E8974C /* SBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableViewCell.h; sourceTree = "<group>"; };
+		98D81E1D1BE1D6B200E8974C /* SBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableViewCell.m; sourceTree = "<group>"; };
+		98D81E1F1BE1D6C600E8974C /* SBDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBDefine.h; path = SBJellyRefreshView/SBDefine.h; sourceTree = "<group>"; };
+		98D81E201BE1D6F500E8974C /* SBTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9891DED61BE11C4100B60A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891DEEF1BE11C4200B60A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9891DED01BE11C4100B60A44 = {
+			isa = PBXGroup;
+			children = (
+				9891DEDB1BE11C4100B60A44 /* SBJellyRefreshViewDemo */,
+				9891DEF51BE11C4200B60A44 /* SBJellyRefreshViewDemoTests */,
+				9891DEDA1BE11C4100B60A44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9891DEDA1BE11C4100B60A44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9891DED91BE11C4100B60A44 /* SBJellyRefreshViewDemo.app */,
+				9891DEF21BE11C4200B60A44 /* SBJellyRefreshViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9891DEDB1BE11C4100B60A44 /* SBJellyRefreshViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9891DEDF1BE11C4100B60A44 /* AppDelegate.h */,
+				9891DEE01BE11C4100B60A44 /* AppDelegate.m */,
+				9891DEE21BE11C4100B60A44 /* ViewController.h */,
+				9891DEE31BE11C4100B60A44 /* ViewController.m */,
+				98D81E1C1BE1D6B200E8974C /* SBTableViewCell.h */,
+				98D81E1D1BE1D6B200E8974C /* SBTableViewCell.m */,
+				98D81E201BE1D6F500E8974C /* SBTableViewCell.xib */,
+				9891DF041BE11CB500B60A44 /* SBJellyRefreshView */,
+				9891DEE81BE11C4100B60A44 /* Assets.xcassets */,
+				9891DEEA1BE11C4100B60A44 /* LaunchScreen.storyboard */,
+				9891DEED1BE11C4100B60A44 /* Info.plist */,
+				9891DEDC1BE11C4100B60A44 /* Supporting Files */,
+			);
+			path = SBJellyRefreshViewDemo;
+			sourceTree = "<group>";
+		};
+		9891DEDC1BE11C4100B60A44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9891DEDD1BE11C4100B60A44 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9891DEF51BE11C4200B60A44 /* SBJellyRefreshViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9891DEF61BE11C4200B60A44 /* SBJellyRefreshViewDemoTests.m */,
+				9891DEF81BE11C4200B60A44 /* Info.plist */,
+			);
+			path = SBJellyRefreshViewDemoTests;
+			sourceTree = "<group>";
+		};
+		9891DF041BE11CB500B60A44 /* SBJellyRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				98B990351BE273F300F0AF21 /* SBAnimation.h */,
+				98B990361BE273F300F0AF21 /* SBAnimation.m */,
+				98D81E1F1BE1D6C600E8974C /* SBDefine.h */,
+				9891DF011BE11CB100B60A44 /* SBJellyRefreshView.h */,
+				9891DF021BE11CB100B60A44 /* SBJellyRefreshView.m */,
+				9891DF061BE120D800B60A44 /* SBJellyBall.h */,
+				9891DF071BE120D800B60A44 /* SBJellyBall.m */,
+			);
+			name = SBJellyRefreshView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9891DED81BE11C4100B60A44 /* SBJellyRefreshViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9891DEFB1BE11C4200B60A44 /* Build configuration list for PBXNativeTarget "SBJellyRefreshViewDemo" */;
+			buildPhases = (
+				9891DED51BE11C4100B60A44 /* Sources */,
+				9891DED61BE11C4100B60A44 /* Frameworks */,
+				9891DED71BE11C4100B60A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBJellyRefreshViewDemo;
+			productName = SBJellyRefreshViewDemo;
+			productReference = 9891DED91BE11C4100B60A44 /* SBJellyRefreshViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9891DEF11BE11C4200B60A44 /* SBJellyRefreshViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9891DEFE1BE11C4200B60A44 /* Build configuration list for PBXNativeTarget "SBJellyRefreshViewDemoTests" */;
+			buildPhases = (
+				9891DEEE1BE11C4200B60A44 /* Sources */,
+				9891DEEF1BE11C4200B60A44 /* Frameworks */,
+				9891DEF01BE11C4200B60A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9891DEF41BE11C4200B60A44 /* PBXTargetDependency */,
+			);
+			name = SBJellyRefreshViewDemoTests;
+			productName = SBJellyRefreshViewDemoTests;
+			productReference = 9891DEF21BE11C4200B60A44 /* SBJellyRefreshViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9891DED11BE11C4100B60A44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Pandara;
+				TargetAttributes = {
+					9891DED81BE11C4100B60A44 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					9891DEF11BE11C4200B60A44 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9891DED81BE11C4100B60A44;
+					};
+				};
+			};
+			buildConfigurationList = 9891DED41BE11C4100B60A44 /* Build configuration list for PBXProject "SBJellyRefreshViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9891DED01BE11C4100B60A44;
+			productRefGroup = 9891DEDA1BE11C4100B60A44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9891DED81BE11C4100B60A44 /* SBJellyRefreshViewDemo */,
+				9891DEF11BE11C4200B60A44 /* SBJellyRefreshViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9891DED71BE11C4100B60A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D81E211BE1D6F500E8974C /* SBTableViewCell.xib in Resources */,
+				9891DEEC1BE11C4100B60A44 /* LaunchScreen.storyboard in Resources */,
+				9891DEE91BE11C4100B60A44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891DEF01BE11C4200B60A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9891DED51BE11C4100B60A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9891DEE41BE11C4100B60A44 /* ViewController.m in Sources */,
+				9891DF081BE120D800B60A44 /* SBJellyBall.m in Sources */,
+				9891DEE11BE11C4100B60A44 /* AppDelegate.m in Sources */,
+				9891DF031BE11CB100B60A44 /* SBJellyRefreshView.m in Sources */,
+				98B990371BE273F300F0AF21 /* SBAnimation.m in Sources */,
+				98D81E1E1BE1D6B200E8974C /* SBTableViewCell.m in Sources */,
+				9891DEDE1BE11C4100B60A44 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891DEEE1BE11C4200B60A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9891DEF71BE11C4200B60A44 /* SBJellyRefreshViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9891DEF41BE11C4200B60A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9891DED81BE11C4100B60A44 /* SBJellyRefreshViewDemo */;
+			targetProxy = 9891DEF31BE11C4200B60A44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9891DEEA1BE11C4100B60A44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9891DEEB1BE11C4100B60A44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9891DEF91BE11C4200B60A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9891DEFA1BE11C4200B60A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9891DEFC1BE11C4200B60A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SBJellyRefreshViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pandara.SBJellyRefreshViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9891DEFD1BE11C4200B60A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SBJellyRefreshViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pandara.SBJellyRefreshViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9891DEFF1BE11C4200B60A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SBJellyRefreshViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pandara.SBJellyRefreshViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBJellyRefreshViewDemo.app/SBJellyRefreshViewDemo";
+			};
+			name = Debug;
+		};
+		9891DF001BE11C4200B60A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SBJellyRefreshViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pandara.SBJellyRefreshViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBJellyRefreshViewDemo.app/SBJellyRefreshViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9891DED41BE11C4100B60A44 /* Build configuration list for PBXProject "SBJellyRefreshViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9891DEF91BE11C4200B60A44 /* Debug */,
+				9891DEFA1BE11C4200B60A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9891DEFB1BE11C4200B60A44 /* Build configuration list for PBXNativeTarget "SBJellyRefreshViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9891DEFC1BE11C4200B60A44 /* Debug */,
+				9891DEFD1BE11C4200B60A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9891DEFE1BE11C4200B60A44 /* Build configuration list for PBXNativeTarget "SBJellyRefreshViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9891DEFF1BE11C4200B60A44 /* Debug */,
+				9891DF001BE11C4200B60A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9891DED11BE11C4100B60A44 /* Project object */;
+}

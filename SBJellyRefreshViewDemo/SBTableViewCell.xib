@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="sbcell" rowHeight="204" id="Lc8-oN-Udt" customClass="SBTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="204"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Lc8-oN-Udt" id="RM9-zW-hgm">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="204"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cbB-rg-Ly2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="204"/>
+                        <animations/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2F7-U3-dsx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="204"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1v-Pb-qbH">
+                        <rect key="frame" x="142" y="91" width="36" height="23"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="2F7-U3-dsx" firstAttribute="leading" secondItem="RM9-zW-hgm" secondAttribute="leading" id="2eV-47-MMS"/>
+                    <constraint firstItem="cbB-rg-Ly2" firstAttribute="leading" secondItem="RM9-zW-hgm" secondAttribute="leading" id="7ZD-xy-Ec0"/>
+                    <constraint firstAttribute="trailing" secondItem="2F7-U3-dsx" secondAttribute="trailing" id="8Np-qE-n1x"/>
+                    <constraint firstItem="2F7-U3-dsx" firstAttribute="top" secondItem="RM9-zW-hgm" secondAttribute="top" id="DlX-oR-jaq"/>
+                    <constraint firstItem="Q1v-Pb-qbH" firstAttribute="centerY" secondItem="RM9-zW-hgm" secondAttribute="centerY" id="MWl-G3-Fzu"/>
+                    <constraint firstAttribute="trailing" secondItem="cbB-rg-Ly2" secondAttribute="trailing" id="N3O-Lv-pfm"/>
+                    <constraint firstAttribute="bottom" secondItem="2F7-U3-dsx" secondAttribute="bottom" id="RWN-uX-rjj"/>
+                    <constraint firstAttribute="bottom" secondItem="cbB-rg-Ly2" secondAttribute="bottom" id="W1B-o1-uJS"/>
+                    <constraint firstItem="cbB-rg-Ly2" firstAttribute="top" secondItem="RM9-zW-hgm" secondAttribute="top" id="jWp-Wh-edi"/>
+                    <constraint firstItem="Q1v-Pb-qbH" firstAttribute="centerX" secondItem="RM9-zW-hgm" secondAttribute="centerX" id="oI2-ZA-oFT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="bgImageView" destination="cbB-rg-Ly2" id="koJ-Fq-EQG"/>
+                <outlet property="shadowView" destination="2F7-U3-dsx" id="Br2-cc-TqZ"/>
+                <outlet property="titleLabel" destination="Q1v-Pb-qbH" id="kbO-0v-ef0"/>
+            </connections>
+            <point key="canvasLocation" x="597" y="333"/>
+        </tableViewCell>
+    </objects>
+</document>
