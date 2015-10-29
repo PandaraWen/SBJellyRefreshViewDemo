@@ -1,6 +1,7 @@
 # SBJellyRefreshViewDemo
 ---
 A simple and beautiful stretch pull-to-refresh view for iOS, developed in obj-c，refering to [KYJellyPullToRefresh](https://github.com/KittenYang/KYJellyPullToRefresh)
+
 ![image](http://7ls0ue.com1.z0.glb.clouddn.com/2015/10/27/sbjellyrefresh/demo3.gif)
 
 ## Requirements
