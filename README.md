@@ -14,9 +14,9 @@ SBJellyRefreshView works on iOS 7.0 and later version. It depends on the followi
 
 ## Usage
 
-### Copy the SBJellyRefreshView folder to your project, then
+Copy the SBJellyRefreshView folder to your project, then
 
-1. Initalize
+**1. Initalize**
 ```objective-c
 self.refreshView = [SBJellyRefreshView getRefreshView];
 self.refreshView.delegate = self;
@@ -24,7 +24,7 @@ self.refreshView.center = CGPointMake(self.refreshView.frame.size.width / 2.0f, 
 [self.tableView addSubview:self.refreshView];
 ```
 
-2. UIScrollViewDelegate in the viewController that retain self.tableView
+**2. UIScrollViewDelegate in the viewController that retain self.tableView**
 ```objective-c
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
 {
@@ -37,7 +37,7 @@ self.refreshView.center = CGPointMake(self.refreshView.frame.size.width / 2.0f, 
 }
 ```
 
-3. Implement the SBJellyRefreshViewDelegate
+**3. Implement the SBJellyRefreshViewDelegate**
 ```objective-c
 - (void)sbJellyRefreshVieWillStartRefresh:(SBJellyRefreshView *)refreshView
 {
